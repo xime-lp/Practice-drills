@@ -1,13 +1,7 @@
-* {
-	box-sizing: border-box;
-}
 body {
 	margin: 0;
 }
-a {
-	text-decoration: none;
-}
-.block {
+/*.block {
 	background-color: pink;
 	border: 2px solid salmon;
 	margin-right: auto;
@@ -61,43 +55,4 @@ a.block:hover, a.block:active {
 	margin: 20px;
 	font-size: 13pt;
 	font-family: Helvetica;
-}
-@media (min-width: 992px) {
-	.col-lg-3 {
-		width: 32%;
-	}
-	h1 {
-	position: relative;
-	bottom: 30px;
-	}
-}
-@media (min-width: 761px) and (max-width: 991px) {
-	.col-md-6 {
-		width: 47%;
-	}
-	#principle {
-		position: relative;
-		bottom: px;
-	}
-
-}
-@media (min-width: 401px) and (max-width: 760px) {
-	#principle {
-		position: relative;
-		bottom: 25px;
-		font-size: 150%;
-	}
-	a.title:link, a.title:active {
-		height: 80px;
-	}
-}
-@media (max-width: 400px) {
-	h1 {
-		position: relative;
-		bottom: 20px;
-		font-size: 130%;
-	}
-	a.title:link, a.title:active {
-		height: 70px;
-	}
-}
+}*/
