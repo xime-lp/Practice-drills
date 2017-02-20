@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+.block {
+	background-color: pink;
+	border: 2px solid salmon;
+	margin-right: auto;
+	margin-left: auto;
+	margin-left: 6px; 
+	margin-right: 6px;
+	margin-bottom: 12px;
+	float: left;
+}
+a.title:link, a.title:visited {
+	text-decoration: none;
+	color: white;
+	background-color: #8C3836;
+	font-family: "AR CHRISTY";
+	text-align: center;
+	height: 100px;
+	display: block;
+	margin: 10px;
+	border: 2px solid salmon;
+	font-size: 180%;
+	padding: 2px;
+}
+a.title:hover, a.title:active {
+	text-decoration: none;
+	color: #3E980A;
+	font-family: "AR CHRISTY";
+	text-align: center;
+	height: 100px;
+	display: block;
+	margin: 10px;
+	border: 2px solid salmon;
+}
+a.block:link, a.block:visited {
+	text-decoration: none;
+	color: black;
+}
+a.block:hover, a.block:active {
+	background-color: salmon;
+}
+.subtitle {
+	font-size: 14pt;
+	background-color: #44702A;
+	border: 1px solid salmon;
+	text-align: center;
+	font-family: cursive;
+	width: 120px;
+	margin-left: 0;
+	color: white;
+}
+.dummy {
+	margin: 20px;
+	font-size: 13pt;
+	font-family: Helvetica;
+}
+@media (min-width: 992px) {
+	.col-lg-3 {
+		width: 32%;
+	}
+	h1 {
+	position: relative;
+	bottom: 30px;
+	}
+}
+@media (min-width: 761px) and (max-width: 991px) {
+	.col-md-6 {
+		width: 47%;
+	}
+	#principle {
+		position: relative;
+		bottom: px;
+	}
+
+}
+@media (min-width: 401px) and (max-width: 760px) {
+	#principle {
+		position: relative;
+		bottom: 25px;
+		font-size: 150%;
+	}
+	a.title:link, a.title:active {
+		height: 80px;
+	}
+}
+@media (max-width: 400px) {
+	h1 {
+		position: relative;
+		bottom: 20px;
+		font-size: 130%;
+	}
+	a.title:link, a.title:active {
+		height: 70px;
+	}
+}
