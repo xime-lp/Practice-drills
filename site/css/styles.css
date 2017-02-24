@@ -56,3 +56,28 @@ a.block:hover, a.block:active {
 	font-size: 13pt;
 	font-family: Helvetica;
 }*/
+
+#header {
+
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	height: 100px;
+}
+.navbar-brand h1 {
+	color: salmon;
+	font-family: "AR CHRISTY";/*?*/
+	text-align: center;
+	height: 100px;
+	display: block;
+	margin: 10px;
+	font-size: 180%;
+	padding: 2px;
+}
+#nav-list {
+	margin-top: 15px;
+}
+#nav-list a {
+	font-size: 1.2em;
+}
