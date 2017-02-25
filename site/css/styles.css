@@ -11,29 +11,6 @@ body {
 	margin-bottom: 12px;
 	float: left;
 }
-a.title:link, a.title:visited {
-	text-decoration: none;
-	color: white;
-	background-color: #8C3836;
-	font-family: "AR CHRISTY";
-	text-align: center;
-	height: 100px;
-	display: block;
-	margin: 10px;
-	border: 2px solid salmon;
-	font-size: 180%;
-	padding: 2px;
-}
-a.title:hover, a.title:active {
-	text-decoration: none;
-	color: #3E980A;
-	font-family: "AR CHRISTY";
-	text-align: center;
-	height: 100px;
-	display: block;
-	margin: 10px;
-	border: 2px solid salmon;
-}
 a.block:link, a.block:visited {
 	text-decoration: none;
 	color: black;
@@ -58,26 +35,49 @@ a.block:hover, a.block:active {
 }*/
 
 #header {
-
 	border-radius: 0;
 	border: 0;
+	background-color: black;
 }
-.navbar-brand {
-	height: 100px;
-}
-.navbar-brand h1 {
-	color: salmon;
-	font-family: "AR CHRISTY";/*?*/
-	text-align: center;
-	height: 100px;
+#title h1 {
+	font-family: "Bigelow Rules";/*?*/
 	display: block;
-	margin: 10px;
-	font-size: 180%;
+	margin-top: 30px;
+	font-size: 300%;
 	padding: 2px;
 }
-#nav-list {
-	margin-top: 15px;
+.navbar-brand {
+	height: 150px;
 }
-#nav-list a {
-	font-size: 1.2em;
+#title a:link, #title a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+/*@media (min-width: 1200px) {
+	#nav-list {
+		position: relative;
+		top: 100px;
+	}
+}*/
+#nav-list {
+	font-family: 'Snippet', sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+#nav-list a:link, #nav-list a:visited {
+	color: white;
+}
+#nav-list a:hover, #nav-list a:active {
+	background-color: grey;
+}
+#brand-img {
+	margin: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #e6e6e6;
+}
+.glyphicon {
+	margin: 5px;
+	font-size: 1em;
 }
