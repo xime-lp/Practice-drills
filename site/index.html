@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Harry Potter club</title>
+	<title>Mananas Bananas Monones Super Ponsa</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -15,14 +15,20 @@
 		<div class="container-fluid">
 			<div class="navbar-header">
 
-				<a class="navbar-brand" id="brand-img" href="index.html">
-					<img alt="Brand image" src="img/h2.png">
+				<!--Main image-->
+				<a class="navbar-brand hidden-xs hidden-sm" id="brand-img" href="index.html">
+					<img alt="Brand image" src="img/h2-lg.png">
+				</a>
+				<a class="navbar-brand visible-sm" id="brand-img" href="index.html">
+					<img alt="Brand image" src="img/h2-sm.png">
 				</a>
 
+				<!--Title-->
 				<div class="navbar-brand" id="title">
-					<a href="index.html"><h1>Harry Potter facts</h1></a>
+					 <a href="index.html"><h1><span class="glyphicon glyphicon-flash navbar-left visible-xs"></span>Harry Potter Facts</h1></a>
 				</div>
 
+				<!--Buttons-->
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
 					<span class="sr-only">Toogle navigation</span>
 					<span class="icon-bar"></span>
@@ -31,8 +37,9 @@
 				</button>
 			</div>
 
+			<!--Buttons-->
 			<div class="collapse navbar-collapse" id="collapsable-nav">
-				<ul id="nav-list" class="nav navbar-nav navbar-right">
+				<ul id="nav-list" class="nav navbar-nav navbar-right text-center">
 					<li>
 					<a href="index.html">Great Hall</a>
 					</li>
@@ -43,7 +50,7 @@
 					<a href="index.html">Forum</a>
 					</li>
 					<li>
-					<a href="index.html"><span class="glyphicon glyphicon-info-sign"></span>Info</a>
+					<a href="index.html" id="info"><span class="glyphicon glyphicon-info-sign"></span></a>
 					</li>
 				</ul>
 			</div>
