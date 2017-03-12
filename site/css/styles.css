@@ -98,3 +98,31 @@ a.block:hover, a.block:active {
 #info {
 	padding: 13px;
 }
+#drop-menu {
+	background-color: black;
+}
+.jumbotron {
+	background: url(../img/hogwarts2) no-repeat center ;
+	height: 700px;
+}
+.jumbotron h2 {
+	color: white;
+	font-size: 8em;
+	font-family: 'Princess Sofia', cursive;
+	position: relative;
+	top: 40px;
+}
+footer {
+	background-color: #222;
+	padding: 0;
+	margin: 0;
+	height: 100px;
+}
+.content {
+	padding: 5px;
+	color: lightgrey;
+}
+.content > p > a{
+	text-decoration: none;
+	color: white;
+}
