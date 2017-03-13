@@ -96,11 +96,13 @@ a.block:hover, a.block:active {
 	border: 1px solid #e6e6e6;
 }
 #info {
-	padding: 13px;
+	padding: 12.5px;
 }
 #drop-menu {
 	background-color: black;
 }
+
+
 .jumbotron {
 	background: url(../img/hogwarts2) no-repeat center ;
 	height: 700px;
@@ -116,7 +118,7 @@ footer {
 	background-color: #222;
 	padding: 0;
 	margin: 0;
-	height: 100px;
+	height: 120px;
 }
 .content {
 	padding: 5px;
@@ -125,4 +127,7 @@ footer {
 .content > p > a{
 	text-decoration: none;
 	color: white;
+}
+.social-media {
+	margin: 5px;
 }
