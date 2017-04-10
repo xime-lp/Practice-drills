@@ -65,10 +65,24 @@ a.block:hover, a.block:active {
 		position: relative;
 		top: 100px;
 	}
+	.jumbotron {
+	background: url(../img/hogwarts-lg) no-repeat center ;
+	height: 700px;
+	}
+	.jumbotron h2 {
+	color: white;
+	font-size: 8em;
+	font-family: 'Princess Sofia', cursive;
+	position: relative;
+	top: 40px;
+	}
 }
 /*Medium devices*/
 @media (min-width: 992px) and (max-width: 1199px){
-
+	.jumbotron {
+		background: url(../img/hogwarts-md) no-repeat center;
+		height: 600px;
+	}
 }
 /*Small devices*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -78,6 +92,10 @@ a.block:hover, a.block:active {
 	.navbar-brand {
 		height: 120px;
 	}
+	/*.jumbotron {
+		background: url() no-repeat center;
+		height: 500px;
+	}*/
 }
 
 /*Buttons*/
@@ -102,18 +120,6 @@ a.block:hover, a.block:active {
 	background-color: black;
 }
 
-
-.jumbotron {
-	background: url(../img/hogwarts2) no-repeat center ;
-	height: 700px;
-}
-.jumbotron h2 {
-	color: white;
-	font-size: 8em;
-	font-family: 'Princess Sofia', cursive;
-	position: relative;
-	top: 40px;
-}
 footer {
 	background-color: #222;
 	padding: 0;
